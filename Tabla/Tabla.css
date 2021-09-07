@@ -1,0 +1,44 @@
+body{
+    background: repeating-linear-gradient(89deg, blue,40%, pink);
+
+}
+table {
+    width: 50%;
+}
+#datos{
+    border-style:solid;
+}
+td {
+    text-align: center;
+   
+}
+th{
+    background-color: rgb(243, 168, 180);
+    border-style: solid;
+}
+
+#ingresar {
+
+    display: none;
+    margin-left: 20%;
+}
+input{
+    background: linear-gradient(
+        45deg,
+        rgb(66, 66, 248),60%, pink );
+}
+button {
+    content: none;
+    background-color:transparent 90px ;
+    border: none;
+    text-decoration: none;
+    background-image: linear-gradient(red);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: background-size .3s;
+}
+
+button:hover, button:focus {
+    background-size: 100% 2px;
+}

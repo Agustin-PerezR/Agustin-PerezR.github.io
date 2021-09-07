@@ -1,0 +1,35 @@
+#encabezado{
+    display: inline-flex ;
+    background-color: #8e96fb;
+    width: 100%;
+    height:max-content;
+}
+
+p{
+    margin: 20px;
+    border-radius: 10px;
+}
+#encabezado p:hover{
+    font-size: large;
+    color: blanchedalmond; 
+    transition: all 
+    1s;
+}
+#general{
+    background: linear-gradient(  90deg,#8e96fb,#78ef8cd1 );
+            margin-top: inherit;
+            width: auto;
+            height: 10cm;
+            border-radius: 23px;
+            display: grid;
+}
+#tareas{
+    margin: auto;
+    margin-left: 0.5cm;
+    margin-right: 0.5cm;
+    background-color: whitesmoke;
+    display: flex;
+    align-content: flex-start;
+    justify-content: space-around;
+    margin-top: 20px;
+}
