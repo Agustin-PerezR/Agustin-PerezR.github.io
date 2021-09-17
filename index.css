@@ -1,3 +1,6 @@
+
+
+
 #encabezado{
     border-radius: 10px;
     /* From https://css.glass */
@@ -11,11 +14,14 @@
 h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: auto;
-    margin-left: 14px;
     padding-top: 8px;
      transition:  1s;
      color: white;
      
+}
+
+#encabezado h1:first-child{
+    margin-left: 14px;
 }
 
 h1{
@@ -92,19 +98,28 @@ h2{
 #trabajos{
     background: rgb(4 41 76 / 29%);
     border-radius: 16px;
-    box-shadow: 0 4px 30px rgb(73, 145 ,160);
+    box-shadow: 0 4px 30px rgb(73 145 160);
     backdrop-filter: blur(3.4px);
     -webkit-backdrop-filter: blur(3.4px);
     display: block;
     height: max-content;
     border-radius: 10px;
     transition: all 2s;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 #ej{
     width: fit-content;
+    width: -moz-fit-content;
     margin: auto;
     margin-top: 33px;
     text-shadow: 0 4px 30px rgb(248 251 252 / 55%);
+    display: inline-flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 #imagen{
     width: 300px;
@@ -112,12 +127,17 @@ h2{
     margin: auto;
     margin-bottom: 0;
     margin-top: 20px;
-    margin-left: 25px;
+    margin-left: 30px;
     border-radius: 18px;
     transition: all .5s;
-  
-
 }
+
+a{
+    width: 100%;
+    display: grid;
+    justify-content: center;
+}
+
 #imagen:hover{
     margin-bottom: 20px;
     margin-top: 20px;
